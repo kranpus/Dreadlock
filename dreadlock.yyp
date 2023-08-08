@@ -34,6 +34,7 @@
   },
   "resources": [
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"additem","path":"scripts/additem/additem.yy",},},
     {"id":{"name":"Reference_Obj","path":"objects/Reference_Obj/Reference_Obj.yy",},},
     {"id":{"name":"splayer","path":"sprites/splayer/splayer.yy",},},
     {"id":{"name":"sinventory_item","path":"sprites/sinventory_item/sinventory_item.yy",},},
