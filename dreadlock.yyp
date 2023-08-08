@@ -38,7 +38,8 @@
     {"id":{"name":"sinventory_item","path":"sprites/sinventory_item/sinventory_item.yy",},},
     {"id":{"name":"Ground","path":"sprites/Ground/Ground.yy",},},
     {"id":{"name":"statechange","path":"scripts/statechange/statechange.yy",},},
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"CameraManager","path":"objects/CameraManager/CameraManager.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
