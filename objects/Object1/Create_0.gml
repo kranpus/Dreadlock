@@ -1,13 +1,10 @@
-enum item_types
-{
-	trinkits_item  ,
-	crafting_item  ,
-	unsable_item   ,
-	weapon_item    ,
-	armor_item     ,
-	magic_item     ,
-	prostetic_item ,
-}
+global.trinkits_item  = 1
+global.crafting_item  = 2
+global.unsable_item   = 3
+global.weapon_item    = 4
+global.armor_item     = 5
+global.magic_item     = 6
+global.prostetic_item = 7
 
 
 
@@ -112,26 +109,26 @@ state=walking
 inventoryon=false
 itemblank=
 {
-		"sprite":sinventory_item,
+		"sprite": sinventory_item,
 		"name":-1,
 		"sprite_id":-1,
-		"type":trinkits_item,
+		"type":1,
 		"data":-1
 };
 item1=
 {
-		"sprite":sinventory_item,
+		"sprite": sinventory_item,
 		"name":"test1",
-		"sprite_id":-1,
-		"type":trinkits_item,
+		"sprite_id":1,
+		"type":1,
 		"data":-1
 };
 item2=
 {
-		"sprite":sinventory_item,
+		"sprite": sinventory_item,
 		"name":"test2",
-		"sprite_id":-1,
-		"type":trinkits_item,
+		"sprite_id":2,
+		"type":1,
 		"data":-1
 };
 inventory=[itemblank,itemblank,item2,itemblank,itemblank,item2,itemblank,itemblank,itemblank,item2,itemblank,itemblank,itemblank,itemblank,itemblank]
