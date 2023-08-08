@@ -40,7 +40,7 @@ crouching=function()
 	vms=3
 	x+=xmove*hms
 	y+=ymove*vms
-	if keyboard_check_pressed(vk_up)
+	if !keyboard_check(vk_control)
 	{
 		statechange(walking)
 	}
@@ -107,6 +107,7 @@ hit=false
 stumr=0
 state=walking
 inventoryon=false
+maxkg=100
 itemblank=
 {
 		"sprite": sinventory_item,

@@ -1,6 +1,4 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [
-    {"name":"additem","order":1,"path":"scripts/additem/additem.yy",},
-  ],
+  "ResourceOrderSettings": [],
 }
