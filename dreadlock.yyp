@@ -41,6 +41,7 @@
     {"id":{"name":"statechange","path":"scripts/statechange/statechange.yy",},},
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"additem","path":"scripts/additem/additem.yy",},},
     {"id":{"name":"szombie","path":"sprites/szombie/szombie.yy",},},
     {"id":{"name":"Reference_Sprite","path":"sprites/Reference_Sprite/Reference_Sprite.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
