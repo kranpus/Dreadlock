@@ -15,3 +15,7 @@ ymove=(down-up)
 stumr=(irandom_range(1,30))
 state()
 hit=false
+
+#region Mouse Look-At
+image_angle = point_direction(x,y,mouse_x,mouse_y);
+#endregion

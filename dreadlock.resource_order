@@ -1,9 +1,10 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"Reference_Obj","order":2,"path":"objects/Reference_Obj/Reference_Obj.yy",},
     {"name":"splayer","order":1,"path":"sprites/splayer/splayer.yy",},
     {"name":"sinventory_item","order":2,"path":"sprites/sinventory_item/sinventory_item.yy",},
     {"name":"Ground","order":3,"path":"sprites/Ground/Ground.yy",},
-    {"name":"CameraManager","order":1,"path":"objects/CameraManager/CameraManager.yy",},
+    {"name":"Reference_Sprite","order":4,"path":"sprites/Reference_Sprite/Reference_Sprite.yy",},
   ],
 }

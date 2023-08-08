@@ -34,12 +34,13 @@
   },
   "resources": [
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"Reference_Obj","path":"objects/Reference_Obj/Reference_Obj.yy",},},
     {"id":{"name":"splayer","path":"sprites/splayer/splayer.yy",},},
     {"id":{"name":"sinventory_item","path":"sprites/sinventory_item/sinventory_item.yy",},},
     {"id":{"name":"Ground","path":"sprites/Ground/Ground.yy",},},
     {"id":{"name":"statechange","path":"scripts/statechange/statechange.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
-    {"id":{"name":"CameraManager","path":"objects/CameraManager/CameraManager.yy",},},
+    {"id":{"name":"Reference_Sprite","path":"sprites/Reference_Sprite/Reference_Sprite.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
