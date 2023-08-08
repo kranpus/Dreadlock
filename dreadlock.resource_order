@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"splayer","order":1,"path":"sprites/splayer/splayer.yy",},
+    {"name":"s_player","order":1,"path":"sprites/s_player/s_player.yy",},
     {"name":"sinventory_item","order":2,"path":"sprites/sinventory_item/sinventory_item.yy",},
   ],
 }
