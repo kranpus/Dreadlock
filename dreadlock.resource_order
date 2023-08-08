@@ -5,6 +5,8 @@
     {"name":"splayer","order":1,"path":"sprites/splayer/splayer.yy",},
     {"name":"sinventory_item","order":2,"path":"sprites/sinventory_item/sinventory_item.yy",},
     {"name":"Ground","order":3,"path":"sprites/Ground/Ground.yy",},
+    {"name":"obj_zombie","order":3,"path":"objects/obj_zombie/obj_zombie.yy",},
+    {"name":"szombie","order":5,"path":"sprites/szombie/szombie.yy",},
     {"name":"Reference_Sprite","order":4,"path":"sprites/Reference_Sprite/Reference_Sprite.yy",},
   ],
 }
