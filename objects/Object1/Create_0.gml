@@ -113,7 +113,8 @@ itemblank=
 		"name":-1,
 		"sprite_id":-1,
 		"type":1,
-		"data":-1
+		"data":-1,
+		"KG":0,
 };
 item1=
 {
@@ -121,7 +122,8 @@ item1=
 		"name":"test1",
 		"sprite_id":1,
 		"type":1,
-		"data":-1
+		"data":-1,
+		"KG":80,
 };
 item2=
 {
@@ -129,6 +131,7 @@ item2=
 		"name":"test2",
 		"sprite_id":2,
 		"type":1,
-		"data":-1
+		"data":-1,
+		"KG":1,
 };
-inventory=[itemblank,itemblank,item2,itemblank,itemblank,item2,itemblank,itemblank,itemblank,item2,itemblank,itemblank,itemblank,itemblank,itemblank]
+inventory=[item1,item2,item2,itemblank,itemblank,item2,itemblank,itemblank,itemblank,item2,itemblank,itemblank,itemblank,itemblank,itemblank]
