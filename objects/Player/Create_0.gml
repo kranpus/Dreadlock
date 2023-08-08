@@ -13,8 +13,8 @@ global.prostetic_item = 7
 inventory_slots= 15
 walking=function()
 {
-	hms=5
-	vms=5
+	hms=2
+	vms=2
 	x+=xmove*hms
 	y+=ymove*vms
 	if keyboard_check(vk_shift)
@@ -27,7 +27,7 @@ walking=function()
 			time=15
 			hit=false
 		}
-	if keyboard_check_pressed(vk_down)
+	if keyboard_check_pressed(vk_control)
 		{
 			statechange(crouching)
 		}	
@@ -36,18 +36,18 @@ walking=function()
 crouching=function()
 {
 	dettection-=max (dettection-20,30)
-	hms=3
-	vms=3
+	hms=1
+	vms=1
 	x+=xmove*hms
 	y+=ymove*vms
 	if !keyboard_check(vk_control)
 	{
 		statechange(walking)
 	}
-	if keyboard_check_pressed(vk_down)
+	/*if keyboard_check_pressed(vk_down)
 	{
 		statechange(cralling)
-	}	
+	}*/
 }
 cralling=function()
 {
@@ -64,8 +64,8 @@ cralling=function()
 }
 runing=function()
 {
-	hms=10
-	vms=10
+	hms=4
+	vms=4
 	x+=xmove*hms
 	y+=ymove*vms
 	if !keyboard_check(vk_shift)
