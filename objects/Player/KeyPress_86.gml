@@ -1,0 +1,1 @@
+itemremovesellected(itemblank,selected,0)

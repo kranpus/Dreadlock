@@ -14,8 +14,20 @@ xmove=(right-left)
 ymove=(down-up)
 stumr=(irandom_range(1,30))
 state()
+if selected<0
+{
+ selected=inventory_slots-1	
+}
+if selected>=inventory_slots
+{
+ selected=0	
+}
+if nametime=1
+{
+	name=-1	
+}
+nametime--
 hit=false
-
 #region Mouse Look-At
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 #endregion

@@ -1,6 +1,10 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"omouse_controller","order":1,"path":"objects/omouse_controller/omouse_controller.yy",},
+    {"name":"inventorymove","order":2,"path":"scripts/inventorymove/inventorymove.yy",},
     {"name":"additem","order":1,"path":"scripts/additem/additem.yy",},
+    {"name":"sinventory","order":1,"path":"sprites/sinventory/sinventory.yy",},
+    {"name":"itemremovesellected","order":3,"path":"scripts/itemremovesellected/itemremovesellected.yy",},
   ],
 }

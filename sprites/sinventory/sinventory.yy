@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sinventory_item",
-  "bbox_bottom": 24,
+  "name": "sinventory",
+  "bbox_bottom": 31,
   "bbox_left": 0,
-  "bbox_right": 24,
+  "bbox_right": 31,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -24,7 +24,30 @@
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"eb99a832-a44c-4b2a-87e1-2d0963151ef9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "resourceType": "GMNineSliceData",
+    "resourceVersion": "1.0",
+    "bottom": 2,
+    "enabled": true,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "left": 2,
+    "right": 2,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "top": 2,
+  },
   "origin": 0,
   "parent": {
     "name": "Sprites",
@@ -34,7 +57,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sinventory_item",
+    "name": "sinventory",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -56,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"305a07de-89e2-4962-8a57-182012ca94ec","path":"sprites/sinventory_item/sinventory_item.yy",},},},"Disabled":false,"id":"597870a0-4ff9-481a-a34d-d0d3bac7d783","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6d654a63-4f79-4a9e-aa98-dd0e5afaa012","path":"sprites/sinventory_item/sinventory_item.yy",},},},"Disabled":false,"id":"e922337a-515d-43d2-956f-36e667acb0f0","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c38b6635-81e4-43df-81e6-106e22a462ee","path":"sprites/sinventory_item/sinventory_item.yy",},},},"Disabled":false,"id":"795c039f-0b97-4a7c-b977-97c73eff36af","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"305a07de-89e2-4962-8a57-182012ca94ec","path":"sprites/sinventory/sinventory.yy",},},},"Disabled":false,"id":"6efb2c00-4f36-4220-8c41-14c0ab3b4330","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6d654a63-4f79-4a9e-aa98-dd0e5afaa012","path":"sprites/sinventory/sinventory.yy",},},},"Disabled":false,"id":"6d1f4e78-e787-429f-ba3c-e332da9f680d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c38b6635-81e4-43df-81e6-106e22a462ee","path":"sprites/sinventory/sinventory.yy",},},},"Disabled":false,"id":"f290c240-560f-4709-8de9-929d8712c05a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
