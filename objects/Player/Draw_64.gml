@@ -24,7 +24,12 @@ if inventoryon=true
 	if name!=-1
 	{
 	draw_text(display_get_gui_width()/2-180,display_get_gui_height()/2,"you could not fit this "+string(name)+" into your bag ")
+	}
+	if nametime<0
+	{
 	nametime=120
 	}
 	draw_text(invx+inventory_slot_distance,invy-35,"Packweight"+string(KG)+" / "+string(maxkg))
 }
+var angle=point_direction(x,y,mouse_x,mouse_y)
+draw_text(display_get_gui_width()/2-180,display_get_gui_height()/2,+string(angle))

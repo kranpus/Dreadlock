@@ -5,6 +5,7 @@ global.weapon_item    = 4
 global.armor_item     = 5
 global.magic_item     = 6
 global.prostetic_item = 7
+global.f4=false
 selected=0
 inventory_slots= 9
 walking=function()
@@ -136,3 +137,4 @@ item2=
 inventory=[item1,item2,item2,itemblank,itemblank,item2,itemblank,itemblank,itemblank,item2,itemblank,itemblank,itemblank,itemblank,itemblank,itemblank,itemblank,itemblank,itemblank,itemblank]
 surface_resize(application_surface,640,360)
 window_set_caption("This is a real game")
+image_speed=0

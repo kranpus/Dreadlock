@@ -28,6 +28,27 @@ if nametime=1
 }
 nametime--
 hit=false
-#region Mouse Look-At
-image_angle = point_direction(x,y,mouse_x,mouse_y);
-#endregion
+
+/// Player Sprite Direction
+
+var mouseX = mouse_x;
+var mouseY = mouse_y;
+
+var playerX = x;
+var playerY = y;
+
+var angle = point_direction(playerX, playerY, mouseX, mouseY);
+
+if (angle > 315 or angle < 45) 
+{
+    sprite_index = splayerL;
+} else if (angle > 45 and angle < 135) 
+{
+    sprite_index = splayerU;
+} else if (angle > 135 and angle < 225) 
+{
+    sprite_index = splayerR;
+} else if (angle > 225 and angle < 315) 
+{
+    sprite_index = splayerD;
+}

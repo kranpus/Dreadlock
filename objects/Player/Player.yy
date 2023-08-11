@@ -35,14 +35,22 @@
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [],
-  "physicsStartAwake": true,
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":20.0,"y":0.0,},
+    {"x":20.0,"y":28.0,},
+    {"x":0.0,"y":28.0,},
+  ],
+  "physicsStartAwake": false,
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "splayer",
-    "path": "sprites/splayer/splayer.yy",
+    "name": "splayerD",
+    "path": "sprites/splayerD/splayerD.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "splayerD",
+    "path": "sprites/splayerD/splayerD.yy",
+  },
   "visible": true,
 }

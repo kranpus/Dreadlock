@@ -1,10 +1,21 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"3D code","order":5,"path":"folders/Scripts/3D code.yy",},
+  ],
   "ResourceOrderSettings": [
+    {"name":"Script8","order":3,"path":"scripts/Script8/Script8.yy",},
+    {"name":"splayerL","order":2,"path":"sprites/splayerL/splayerL.yy",},
+    {"name":"Tiletoscreenx","order":1,"path":"scripts/Tiletoscreenx/Tiletoscreenx.yy",},
     {"name":"omouse_controller","order":1,"path":"objects/omouse_controller/omouse_controller.yy",},
+    {"name":"Sprite11","order":5,"path":"sprites/Sprite11/Sprite11.yy",},
+    {"name":"splayerR","order":3,"path":"sprites/splayerR/splayerR.yy",},
     {"name":"inventorymove","order":2,"path":"scripts/inventorymove/inventorymove.yy",},
+    {"name":"splayerU","order":4,"path":"sprites/splayerU/splayerU.yy",},
+    {"name":"Tiletoscreeny","order":2,"path":"scripts/Tiletoscreeny/Tiletoscreeny.yy",},
     {"name":"additem","order":1,"path":"scripts/additem/additem.yy",},
     {"name":"sinventory","order":1,"path":"sprites/sinventory/sinventory.yy",},
     {"name":"itemremovesellected","order":3,"path":"scripts/itemremovesellected/itemremovesellected.yy",},
+    {"name":"owallparent","order":3,"path":"objects/owallparent/owallparent.yy",},
+    {"name":"ogridcontroller","order":2,"path":"objects/ogridcontroller/ogridcontroller.yy",},
   ],
 }
